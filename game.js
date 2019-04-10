@@ -150,14 +150,7 @@ function reButton() {
 
     battleDiv.appendChild(restartButton);
 
-    document.querySelector('.restart').addEventListener('click', newGame);
-
-}
-
-
-function newGame() {
-
-    init();
+    document.querySelector('.restart').addEventListener('click', init);
 
 }
 
